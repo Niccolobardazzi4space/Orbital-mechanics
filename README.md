@@ -8,3 +8,7 @@ The mission to be designed had to study the evolution of a chosen orbit taking i
 The integrator is a multi-step integrator which implement step-size control and order control (ode113).
 
 ## Interplanetary Mission
+The mission to be designed had to start from Jupiter, perform a flyby around Mars and in the end arrive at Venus. The aim of the following trajectory was to find a date within 40 years (from 2029/05/01 to 2069/05/01) which minimizes the total fuel consumption and the time of the journey. The program has been optimized so much that runs in few minutes thanks to the exclusion of impossible solutions.
+### Integration
+The integrator is a multi-step integrator which implement step-size control and order control (ode113).
+
